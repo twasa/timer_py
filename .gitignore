@@ -8,4 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
-**/main.*
+
+# nuitka
+main.exe
+main.pdb
+main.build
+main.dist
+main.onefile-build
