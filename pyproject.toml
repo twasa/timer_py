@@ -1,0 +1,14 @@
+[project]
+name = "timer-py"
+version = "0.1.0"
+description = "A python simple count down timer"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nuitka[onefile]>=4.0.1",
+    "playsound3==3.3.1",
+]
+classifiers = ["Private :: Do Not Upload"]
+
+[dependency-groups]
+dev = []
