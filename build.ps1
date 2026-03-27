@@ -5,4 +5,9 @@ uv run python `
     --show-memory `
     --show-progress `
     --zig `
-    --include-data-dir=audio=audio main.py
+    --windows-console-mode=disable `
+    --include-data-dir=audio=audio `
+    --include-package=playsound3 `
+    --include-package=_tkinter `
+    --follow-imports `
+    main.py
