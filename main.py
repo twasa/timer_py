@@ -98,9 +98,7 @@ class TimerRow:
             self.app.root.attributes('-topmost', False)
 
     def get_path(self) -> str:
-        script_invocation_path = sys.argv[0]
-        absolute_script_path = os.path.abspath(script_invocation_path)
-        return os.path.dirname(absolute_script_path)
+        return os.path.dirname(os.path.abspath(__file__))
 
 class MultiTimerApp:
     def __init__(self, root):
